@@ -1,5 +1,7 @@
 /*global FB*/
 import { useNavigate } from 'react-router-dom';
+import logo from './static/logo_white.png';
+
 import './App.css';
 
 function App() {
@@ -20,10 +22,13 @@ function App() {
         });
     };
     return (
-        <div className="App">
-            <header className="App-header">
+        <div className="app">
+            <div className="app-logo">
+                <img src={logo} alt="logo" />
+            </div>
+            <div className="app-login-button">
                 <div className="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="rounded" data-auto-logout-link="true" data-use-continue-as="true"></div>
-            </header>
+            </div>
         </div>
     );
 }
