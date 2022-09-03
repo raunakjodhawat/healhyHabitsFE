@@ -1,3 +1,18 @@
 .home {
     background-color: aliceblue;
 }
+
+.home-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px;
+    padding: 3%;
+    min-height: 100vh;
+}
+.stats-parent {
+    grid-area: 1 / 1 / 2 / 3;
+}
+.habit-parent {
+    grid-area: 1 / 2 / 2 / 3;
+}

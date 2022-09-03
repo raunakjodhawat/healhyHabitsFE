@@ -1,6 +1,7 @@
 /*global FB*/
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Habit from "../components/habits/Habit";
 import Header from "../components/headers/Header";
 import './Home.css';
 
@@ -74,6 +75,15 @@ function Home() {
     return (
         <div className="home">
             <Header userName={userName} onLogoutButtonClick={onLogoutButtonClick} />
+            <div className="home-container">
+                <div className="stats-parent">
+
+                </div>
+                <div className="habit-parent">
+                    <Habit />
+                </div>
+            </div>
+            
         </div>
     );
 }

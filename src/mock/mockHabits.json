@@ -1,0 +1,82 @@
+[{
+    "habit_id": 1,
+    "habit_name": "Learn Scala",
+    "aspiration": "FP as general teaches pretty good programming principles",
+    "importance": 0,
+    "schedule": {
+        "days_of_week": [0, 1, 2, 3, 4],
+        "minutes": 60
+    }
+}, {
+    "habit_id": 2,
+    "habit_name": "Learn Scala",
+    "aspiration": "FP as general teaches pretty good programming principles",
+    "importance": 0,
+    "schedule": {
+        "days_of_week": [5, 6],
+        "minutes": 90
+    }
+}, {
+    "habit_id": 3,
+    "habit_name": "Learn Spring",
+    "aspiration": "A defacto backend development platform, for becoming a better backend developer",
+    "importance": 1,
+    "schedule": {
+        "days_of_week": [0, 1, 2, 3, 4],
+        "minutes": 60
+    }
+}, {
+    "habit_id": 4,
+    "habit_name": "Learn Spring",
+    "aspiration": "A defacto backend development platform, for becoming a better backend developer",
+    "importance": 1,
+    "schedule": {
+        "days_of_week": [5, 6],
+        "minutes": 90
+    }
+}, {
+    "habit_id": 5,
+    "habit_name": "Workout",
+    "aspiration": "Health is wealth!",
+    "importance": 1,
+    "schedule": {
+        "days_of_week": [0, 1, 2, 3, 4, 5, 6],
+        "minutes": 90
+    }
+}, {
+    "habit_id": 6,
+    "habit_name": "Side project",
+    "aspiration": "Healthy Habits does need someone to work on it!",
+    "importance": 0,
+    "schedule": {
+        "days_of_week": [5, 6],
+        "minutes": 120
+    }
+}, {
+    "habit_id": 7,
+    "habit_name": "HandsOn Scala",
+    "aspiration": "Its important to practice Scala on daily basis",
+    "importance": 1,
+    "schedule": {
+        "days_of_week": [0, 1, 2, 3, 4, 5, 6],
+        "minutes": 60
+    }
+}, {
+    "habit_id": 8,
+    "habit_name": "Book reading",
+    "aspiration": "Have many unread books",
+    "importance": 2,
+    "schedule": {
+        "days_of_week": [0, 1, 2, 3, 4, 5, 6],
+        "minutes": 30
+    }
+}, {
+    "habit_id": 9,
+    "habit_name": "Newspaper reading",
+    "aspiration": "Its good to be good with the current affairs",
+    "importance": 2,
+    "schedule": {
+        "days_of_week": [0, 1, 2, 3, 4, 5, 6],
+        "minutes": 30
+    }
+}]
