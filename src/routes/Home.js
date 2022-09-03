@@ -1,7 +1,8 @@
 /*global FB*/
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { FBModule } from '../utils/fb';
+import Header from "../components/headers/Header";
+import './Home.css';
 
 const initFB = () => {
     window.fbAsyncInit = () => {
@@ -71,9 +72,8 @@ function Home() {
         });
     }
     return (
-        <div className="app">
-            Hello, {userName}
-            <button onClick={onLogoutButtonClick}>Logout</button>
+        <div className="home">
+            <Header userName={userName} onLogoutButtonClick={onLogoutButtonClick} />
         </div>
     );
 }
